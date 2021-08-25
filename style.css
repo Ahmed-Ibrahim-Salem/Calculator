@@ -1,0 +1,55 @@
+body {
+    background-color: #E5E2DA;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    font-size: 2em;
+    padding: 0.7em;
+    text-align: center;
+    cursor: default;
+    transition: .2s;
+}
+
+td:hover {
+    background-color: #C7C7C7;
+}
+
+input {
+    padding: 16px 25px;
+    width: 350px;
+    border: 0;
+    font-size: 2em;
+    background-color: #333;
+    color: #eee;
+    text-align: right;
+}
+
+.vari {
+    background-color: #464646;
+    color: #eee;
+}
+
+.vari:hover {
+    background-color: #222;
+}
+
+.equalbtn {
+    background: #FFA033;
+}
+
+.container {
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 10px gray;
+}
